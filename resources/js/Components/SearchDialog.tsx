@@ -41,7 +41,7 @@ const SearchDialog = ({ className = '', onClose }: SearchDialogProps) => {
                     keyword: searchValue
                 })
                 .then(res => {
-                    // console.log(res.data)
+                    console.log(res.data)
                     setResults(res.data.result)
                 })
         }

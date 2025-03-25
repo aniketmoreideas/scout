@@ -34,7 +34,7 @@ export default function Welcome({
 
     return (
         <>
-            <Head title="LaraFlix - The Corniest Movie Collection in the Cosmos!" />
+            <Head title="SuperSearch - The Corniest Movie Collection in the Cosmos!" />
             <Navigation />
 
             {open && (
@@ -49,7 +49,7 @@ export default function Welcome({
                 <header className="z-10 flex w-full flex-col text-white">
                     <h1 className="text-center font-extrabold leading-[.7]">
                         <span className="font-honk text-[14rem] uppercase">
-                            LaraFlix
+                            SUPER SEARCH
                         </span>
                     </h1>
                     <p className="text-center font-mono text-xl">
